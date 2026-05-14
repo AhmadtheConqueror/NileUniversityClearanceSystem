@@ -1,0 +1,169 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+127.0.0.1 - - [08/May/2026 21:10:03] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2026 21:10:03] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2026 21:10:12] "OPTIONS /api/login HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:264: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  expires_at=datetime.utcnow() + timedelta(minutes=OTP_TTL_MINUTES),
+[2026-05-08 21:10:35,609] WARNING in app: SMTP email failed; using development OTP fallback: _ssl.c:1063: The handshake operation timed out
+[2026-05-08 21:10:35,610] WARNING in app: Development OTP for ahmadbello2631@gmail.com: 669920
+127.0.0.1 - - [08/May/2026 21:10:35] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:46:04] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:46:05] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:46:18] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:46:29] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:46:44] "OPTIONS /api/login/verify-otp HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:371: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  if challenge.expires_at < datetime.utcnow():
+C:\Users\DELL\Downloads\project group\app.py:389: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  user = User.query.get(challenge.user_id)
+127.0.0.1 - - [13/May/2026 17:46:44] "POST /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:46:44] "GET /api/student/status/1?t=1778690804649 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:52:05] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:52:05] "POST /api/login HTTP/1.1" 401 -
+127.0.0.1 - - [13/May/2026 17:52:20] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:52:20] "POST /api/login HTTP/1.1" 401 -
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+127.0.0.1 - - [13/May/2026 18:22:49] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:22:49] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:23:05] "OPTIONS /api/login HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  expires_at=datetime.utcnow() + timedelta(minutes=OTP_TTL_MINUTES),
+127.0.0.1 - - [13/May/2026 18:23:09] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:23:22] "OPTIONS /api/login/verify-otp HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:456: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  if challenge.expires_at < datetime.utcnow():
+C:\Users\DELL\Downloads\project group\app.py:474: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  user = User.query.get(challenge.user_id)
+127.0.0.1 - - [13/May/2026 18:23:22] "POST /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:23:22] "GET /api/student/status/1?t=1778693002314 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:19] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:19] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:28] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:31] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:52] "OPTIONS /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:52] "POST /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:53] "OPTIONS /api/student/status/13?t=1778693092988 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:24:53] "GET /api/student/status/13?t=1778693092988 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:25:01] "OPTIONS /api/student/update-profile HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:489: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  user = User.query.get(student_id)
+127.0.0.1 - - [13/May/2026 18:25:01] "POST /api/student/update-profile HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:25:04] "OPTIONS /api/student/request-clearance HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:520: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  req.status, req.request_date = 'pending', datetime.utcnow()
+127.0.0.1 - - [13/May/2026 18:25:04] "POST /api/student/request-clearance HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:25:04] "OPTIONS /api/student/status/13?t=1778693104819 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:25:04] "GET /api/student/status/13?t=1778693104819 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:25:15] "OPTIONS /api/login HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:206: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+127.0.0.1 - - [13/May/2026 18:25:15] "POST /api/login HTTP/1.1" 401 -
+127.0.0.1 - - [13/May/2026 18:25:20] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 18:25:20] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:11] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:17] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:30] "OPTIONS /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:30] "POST /api/login/verify-otp HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:566: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  student = User.query.get(r.student_id)
+127.0.0.1 - - [13/May/2026 19:30:30] "GET /api/staff/requests?department=HOD&t=1778697030707 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:50] "OPTIONS /api/staff/approve HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:579: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  req = ClearanceRequest.query.get(request.json.get('id'))
+127.0.0.1 - - [13/May/2026 19:30:50] "POST /api/staff/approve HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:50] "GET /api/staff/requests?department=HOD&t=1778697050152 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:52] "OPTIONS /api/student/status/13?t=1778697052771 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:30:52] "GET /api/student/status/13?t=1778697052771 HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+ * Detected change in 'C:\\Users\\DELL\\Downloads\\project group\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 144-927-574
+C:\Users\DELL\Downloads\project group\app.py:572: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  student = User.query.get(r.student_id)
+127.0.0.1 - - [13/May/2026 19:36:06] "GET /api/staff/requests?department=HOD&t=1778697366427 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:36:11] "GET /api/student/status/13?t=1778697371644 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:36:15] "OPTIONS /api/student/request-clearance HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:526: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  req.status, req.request_date = 'pending', datetime.utcnow()
+127.0.0.1 - - [13/May/2026 19:36:15] "POST /api/student/request-clearance HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:36:15] "OPTIONS /api/student/status/13?t=1778697375488 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:36:15] "GET /api/student/status/13?t=1778697375488 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:39:21] "GET /api/staff/requests?department=HOD&t=1778697561705 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:39:22] "GET /api/staff/requests?department=HOD&t=1778697562502 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:39:40] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:39:40] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:39:55] "OPTIONS /api/login HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:331: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  expires_at=datetime.utcnow() + timedelta(minutes=OTP_TTL_MINUTES),
+127.0.0.1 - - [13/May/2026 19:40:01] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:40:15] "OPTIONS /api/login/verify-otp HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:462: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  if challenge.expires_at < datetime.utcnow():
+C:\Users\DELL\Downloads\project group\app.py:480: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  user = User.query.get(challenge.user_id)
+127.0.0.1 - - [13/May/2026 19:40:15] "POST /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:40:15] "GET /api/staff/requests?department=HR&t=1778697615872 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:40:22] "GET /api/student/status/13?t=1778697622068 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:40:33] "OPTIONS /api/staff/approve HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:586: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  req = ClearanceRequest.query.get(request.json.get('id'))
+127.0.0.1 - - [13/May/2026 19:40:33] "POST /api/staff/approve HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:40:33] "GET /api/staff/requests?department=HR&t=1778697633170 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:40:38] "GET /api/student/status/13?t=1778697638240 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:36] "GET /api/staff/requests?department=HR&t=1778697696074 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:36] "GET /api/staff/requests?department=HR&t=1778697696597 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:36] "GET /api/staff/requests?department=HR&t=1778697696729 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:39] "GET /api/staff/requests?department=HR&t=1778697699836 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:51] "OPTIONS /api/student/status/13?t=1778697711591 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:51] "GET /api/student/status/13?t=1778697711591 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:53] "OPTIONS /api/student/request-clearance HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:53] "POST /api/student/request-clearance HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:53] "OPTIONS /api/student/status/13?t=1778697713840 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:41:53] "GET /api/student/status/13?t=1778697713840 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:09] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:09] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:16] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:19] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:38] "OPTIONS /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:39] "POST /api/login/verify-otp HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:39] "OPTIONS /api/student/status/14?t=1778697759061 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:42:39] "GET /api/student/status/14?t=1778697759061 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:44:56] "OPTIONS /api/login HTTP/1.1" 200 -
+C:\Users\DELL\Downloads\project group\app.py:206: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow()
+127.0.0.1 - - [13/May/2026 19:44:56] "POST /api/login HTTP/1.1" 401 -
+127.0.0.1 - - [13/May/2026 19:44:59] "POST /api/login HTTP/1.1" 401 -
+127.0.0.1 - - [13/May/2026 19:45:00] "POST /api/login HTTP/1.1" 401 -
+127.0.0.1 - - [13/May/2026 19:45:01] "OPTIONS /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 19:45:01] "POST /api/login HTTP/1.1" 401 -
+C:\Users\DELL\Downloads\project group\app.py:181: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  retry_after_seconds = max(1, int((locked_until - datetime.utcnow()).total_seconds()))
+127.0.0.1 - - [13/May/2026 19:45:02] "POST /api/login HTTP/1.1" 429 -

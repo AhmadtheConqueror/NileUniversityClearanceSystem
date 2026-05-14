@@ -1,0 +1,11 @@
+{
+  "login_1_status": 200,
+  "user_id": 9,
+  "update_status": 200,
+  "relogin_name": "Test User 4",
+  "relogin_needsSetup": false,
+  "initial_req_status": "pending",
+  "approve_status": 200,
+  "final_req_status": "approved",
+  "second_req_status": "unlocked"
+}

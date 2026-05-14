@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Raleway", sans-serif;
+  /* line-height: 1.5; */
+  font-weight: 100 - 900;
+  font-style: normal;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.browse-movie-link {
+  display: inline-block;
+  max-width: 220px;
+  border: 5px solid #fff;
+  transition: border 0.15s ease-in-out;
+  border-radius: 4px;
+}
+
+.browse-movie-link:hover {
+  border-color: #6AC045;
+  /* Your green color */
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
